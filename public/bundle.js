@@ -996,6 +996,9 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
+                _react2.default.createElement(_Home2.default, null),
+                _react2.default.createElement(_Home2.default, null),
+                _react2.default.createElement(_Home2.default, null),
                 _react2.default.createElement(_Home2.default, null)
             );
         }
@@ -21243,9 +21246,18 @@ var Home = function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'h1',
+                'div',
                 null,
-                'yoo'
+                _react2.default.createElement(
+                    'h1',
+                    null,
+                    'yoo'
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'testing post adding'
+                )
             );
         }
     }]);
