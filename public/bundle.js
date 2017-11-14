@@ -21264,6 +21264,16 @@ var Home = function (_React$Component) {
                     'p',
                     null,
                     'testing post adding'
+                ),
+                _react2.default.createElement(
+                    'boobs',
+                    null,
+                    'is thikks a ting'
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    ' testing second p tag'
                 )
             );
         }
